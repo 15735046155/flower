@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 620805 */
+  src: url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.eot');
+  src: url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.svg#iconfont') format('svg');
+}
+body{
+	background-color: #f4f4f4;
+}
+.head{
+	width: 7.2rem;
+	height: 0.96rem;
+	background-color: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 200;
+}
+.head h1{
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	margin-left: 2.9rem;
+	line-height: 0.96rem;
+}
+.head a{
+	display: block;
+	font-size: 0.26rem;
+	color: #fff;
+	float: left;
+	margin-left: 2.1rem;
+	line-height: 0.96rem;
+	font-family: 'iconfont';
+}
+.search{
+	width: 7.2rem;
+	height: 0.75rem;
+	padding: 0.1rem;
+	position: fixed;
+	top: 0.96rem;
+	left: 0;
+	background-color: #ccc;
+	z-index: 200;
+}
+.online{
+	width: 2.1rem;
+	height: 0.56rem;
+	background-color: #66cc66;
+	text-align: center;
+	line-height: 0.56rem;
+	color: #fff;
+	font-size: 0.26rem;
+	outline: none;
+	border: none;
+	border-radius: 0.03rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.onclick{
+	width: 4.78rem;
+	height: 0.56rem;
+	background-color: #fff;
+	line-height: 0.56rem;
+	color: #333;
+	font-size: 0.26rem;
+	outline: none;
+	float: left;
+	border: none;
+	padding-left: 0.1rem;
+}
+.type{
+	width: 7.2rem;
+	height: 9.87rem;
+	padding: 0.9rem 0.7rem;
+	background-color: #fff;
+	margin-top: 1.71rem;
+}
+.type_item{
+	width: 1.2rem;
+	height: 1.96rem;
+	float: left;
+	display: block;
+	margin-right: 1.1rem;
+	margin-bottom: 1rem;
+}
+.type_item img{
+	width: 1rem;
+	height: 1rem;
+}
+.type_item p{
+	font-size: 0.26rem;
+	color: #323232;
+	text-align: center;
+}
+.type_item1{
+	margin-right: 0;
+}
+.gu{
+	width: 7.2rem;
+	height: 1.05rem;
+	border-top: 0.02rem solid #e5e5e5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0 0.2rem;
+	background-color: #fff;
+}
+.gu_item{
+	width: 1.7rem;
+	height: 1.05rem;
+	text-align: center;
+	padding-top: 0.14rem;
+	float: left;
+	color: #666;
+}
+.gu_item p{
+	font-family: 'iconfont';
+	font-size: 0.42rem;
+}
+.gu_item a{
+	display: block;
+	font-size: 0.22rem;
+	color: #666;
+}
+.gu_item .active{
+	color: #da3934;
+}

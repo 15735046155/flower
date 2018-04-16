@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 620805 */
+  src: url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.eot');
+  src: url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_620805_baljime0mktsxlxr.svg#iconfont') format('svg');
+}
+body{
+	background-color: #f4f4f4;
+}
+.head{
+	width: 7.2rem;
+	height: 0.96rem;
+	background-color: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 200;
+}
+.head h1{
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	margin-left: 2.9rem;
+	line-height: 0.96rem;
+}
+.head a{
+	display: block;
+	font-size: 0.26rem;
+	color: #fff;
+	float: left;
+	margin-left: 2.1rem;
+	line-height: 0.96rem;
+	font-family: 'iconfont';
+}
+.search{
+	width: 7.2rem;
+	height: 0.75rem;
+	padding: 0.1rem;
+	position: fixed;
+	top: 0.96rem;
+	left: 0;
+	background-color: #ccc;
+	z-index: 200;
+}
+.online{
+	width: 2.1rem;
+	height: 0.56rem;
+	background-color: #66cc66;
+	text-align: center;
+	line-height: 0.56rem;
+	color: #fff;
+	font-size: 0.26rem;
+	outline: none;
+	border: none;
+	border-radius: 0.03rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.onclick{
+	width: 4.78rem;
+	height: 0.56rem;
+	background-color: #fff;
+	line-height: 0.56rem;
+	color: #333;
+	font-size: 0.26rem;
+	outline: none;
+	float: left;
+	border: none;
+	padding-left: 0.1rem;
+}
+.car{
+	width: 7.2rem;
+	height: 1.89rem;
+	border-bottom: 0.01rem solid #eee;
+	padding: 0 0.14rem;
+	background-color: #fff;
+}
+.car1{
+	width: 7.2rem;
+	height: 8.73rem;
+	padding-top: 1.71rem;
+}
+.car_item{
+	width: 6.92rem;
+	height: 100%;
+}
+.car_l{
+	width: 1.38rem;
+	height: 100%;
+	float: left;
+}
+.car_l img{
+	width: 1.39rem;
+	height: 1.39rem;
+	display: block;
+	margin-top: 0.24rem;
+	border: 0.01rem solid #d72b25;
+}
+.car_m{
+	width: 4.2rem;
+	height: 100%;
+	float: left;
+	padding: 0.2rem 0 0 0.2rem;
+}
+.car_m_letter1{
+	font-size: 0.24rem;
+	color: #323232;
+}
+.car_m_letter1 input{
+	width: 0.38rem;
+	height: 0.38rem;
+	border-radius: 0.06rem;
+	outline: none;
+	border: 0.01rem solid #eee;
+	text-align: center;
+	line-height: 0.38rem;
+}
+.car_m_letter1 span{
+	color: #dc4f45;
+	font-size: 0.24rem;
+}
+.car_r{
+	width: 1.32rem;
+	height: 0.58rem;
+	border-radius: 0.03rem;
+	background-color: #66cc66;
+	color: #fff;
+	text-align: center;
+	line-height: 0.58rem;
+	margin-top: 0.65rem;
+	float: left;
+	outline: none;
+	border: none;
+}
+.result{
+	width: 7.2rem;
+	height: 1.18rem;
+	padding-left: 0.2rem;
+	background-color:white;
+	position: fixed;
+	bottom: 1.05rem;
+	left: 0;
+}
+.result input{
+	width: 3.3rem;
+	height: 0.79rem;
+	outline: none;
+	border: none;
+	text-align: center;
+	line-height: 0.79rem;
+	margin-right: 0.2rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #fff;
+	margin-top: 0.2rem;
+}
+.res{
+	background-color: #66cc66;
+}
+.next{
+	background-color: #d72b25;
+}
+.total{
+	width: 7.2rem;
+	height: 0.78rem;
+	padding-left: 5rem;
+	font-size: 0.26rem;
+	color: #363636;
+	position: fixed;
+	bottom: 2.23rem;
+	left: 0;
+	line-height: 0.78rem;
+}
+
+
+.gu{
+	width: 7.2rem;
+	height: 1.05rem;
+	border-top: 0.02rem solid #e5e5e5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0 0.2rem;
+	background-color: #fff;
+}
+.gu_item{
+	width: 1.7rem;
+	height: 1.05rem;
+	text-align: center;
+	padding-top: 0.14rem;
+	float: left;
+	color: #666;
+}
+.gu_item p{
+	font-family: 'iconfont';
+	font-size: 0.42rem;
+}
+.gu_item a{
+	display: block;
+	font-size: 0.22rem;
+	color: #666;
+}
+.gu_item .active{
+	color: #da3934;
+}
